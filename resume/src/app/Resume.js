@@ -9,16 +9,16 @@ const Resume = ({ data }) => {
       <PDFDownloadLink document={<PDF data={data} />} fileName="resume.pdf">
         {({ blob, url, loading, error }) => {
           if (error) {
-            throw 'Error generating pdf';
+            throw Error('Error generating pdf');
           }
 
           return (loading ? 'Loading document...' : 'Download now!')}
         }
       </PDFDownloadLink>
 
-      {/* <PDFViewer>
+      <PDFViewer>
         <PDF data={data} />
-      </PDFViewer> */}
+      </PDFViewer>
     </ErrorBoundary>
   );
 };

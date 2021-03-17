@@ -1,0 +1,40 @@
+{
+  "info": {
+    "name": "Foo Bar",
+    "phoneNumber": "(123)456-7891",
+    "email": "someemail@somewhere",
+    "byline": "Lorem ipsum",
+    "personalGithub": "",
+    "companyGithub": "",
+    "addressLine1": "1234 Somewhere Dr",
+    "addressLine2": "Somewhere, CA",
+    "about": "Some about"
+  },
+  "education": {
+    "college": "",
+    "degree": "",
+    "capstone": "",
+    "awards": ""
+  },
+  "workExperience": [
+    {
+      "company": "",
+      "date": "",
+      "projects": [{
+        "title": "",
+        "description": "",
+        "technology": ""
+      }]
+    }
+  ],
+  "sideSections": [
+    {
+      "title": "Languages",
+      "items": []
+    },
+    {
+      "title": "Frameworks",
+      "items": []
+    }
+  ]
+}
